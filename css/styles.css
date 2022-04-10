@@ -1,4 +1,24 @@
-<body {
-    background-color: teal;
-    color #fff;
+/* :root {
+    /* --header-color: #ffffff;
+    --main-title-color: #ffffff;
+    --second-title-color: #303030;
+    --main-btn-color: #ffffff;
+    --second-btn-color: #303030;
+    --accent-color: #ff6c00; */
+} */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.nav-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
 }
