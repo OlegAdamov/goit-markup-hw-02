@@ -39,6 +39,9 @@ body {
     letter-spacing: 0.02em;
     color: var(--header-text-color, #212121);
 }
+.header-link.current {
+    color: var(--accent-color);
+}
 .header-link:hover, .header-link:focus {
     color: #2196F3;
 }
@@ -104,7 +107,7 @@ body {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--main-text-color) #757575;
+    color: var(--main-text-color, #757575);
 }
 .main-our-team-name {
     font-weight: 500;
@@ -112,13 +115,13 @@ body {
     line-height: 1.19;
     /* text-align: center; */
     letter-spacing: 0.03em;
-    color: var(--main-text-title-color) #212121;
+    color: var(--main-text-title-color, #212121);
 }
 .main-our-team-prof {
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--main-text-color) #757575;
+    color: var(--main-text-color, #757575);
 }
 /* -------------------------------MAIN--PORTFOLIO--------------------------------- */
 
