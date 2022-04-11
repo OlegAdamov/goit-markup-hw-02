@@ -23,7 +23,6 @@ body {
 
 .header-link-w {
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -55,6 +54,10 @@ body {
 }
 /* -------------------------------MAIN-1PAGE--------------------------------- */
 
+.h1 {    
+    background: #2F303A;
+}
+
 .main-title-text {
     font-weight: 900;
     font-size: 44px;
@@ -63,7 +66,6 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
-    background: #2F303A;
 }
 
 .main-btn {
@@ -82,6 +84,14 @@ body {
 .main-specific {
     background-color: var(--main-background-color, #ffffff);
 }
+.main-heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-text-title-color, #212121);
+}
 .main-specific-title {
     font-weight: 700;
     font-size: 14px;
@@ -91,7 +101,6 @@ body {
     color: var(--main-text-title-color, #212121);
 }
 .main-specific-content {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -106,7 +115,6 @@ body {
     color: var(--main-text-title-color) #212121;
 }
 .main-our-team-prof {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -140,7 +148,6 @@ body {
     color: var(--main-text-title-color, #212121);
 }
 .main-btn-task {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
@@ -153,7 +160,6 @@ body {
 }
 .footer-link-w {
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.14;
@@ -165,14 +171,12 @@ body {
 }
 .footer-address {
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 .footer-link {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
