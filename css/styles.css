@@ -147,7 +147,7 @@ body {
     letter-spacing: 0.06em;
     color: var(--main-text-title-color, #212121);
 }
-.main-btn-task {
+.main-ptf-task {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
