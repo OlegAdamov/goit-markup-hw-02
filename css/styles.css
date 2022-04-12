@@ -11,7 +11,7 @@
 }
    
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .link {
     text-decoration: none;
@@ -43,7 +43,7 @@ body {
     color: var(--accent-color);
 }
 .header-link:hover, .header-link:focus {
-    color: #2196F3;
+    color: var(--accent-color, #2196F3);
 }
 .header-connect {
     font-weight: 500;
@@ -60,7 +60,9 @@ body {
 .h1 {    
     background: #2F303A;
 }
-
+.cursor {
+   cursor: pointer;
+}
 .main-title-text {
     font-weight: 900;
     font-size: 44px;
@@ -70,7 +72,6 @@ body {
     text-transform: uppercase;
     color: #FFFFFF;
 }
-
 .main-btn {
     font-family: inherit;
     font-weight: 700;
@@ -83,8 +84,7 @@ body {
     color: #FFFFFF;
     background-color: var(--header-text-background-color, #2196F3);
 }
-  
-.main-specific {
+  .main-specific {
     background-color: var(--main-background-color, #ffffff);
 }
 .main-heading {
@@ -143,19 +143,20 @@ body {
 .main-ptf {
     background-color: var(--main-background-color);
 }
-.main-ptf-web {
+.main-ptf-name {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--main-text-title-color, #212121);
 }
-.main-ptf-task {
+.main-ptf-site {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--main-text-color, #757575);
 }
+
 /* -------------------------------FOOTER--------------------------------- */
 
 .footer {
