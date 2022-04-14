@@ -68,7 +68,7 @@ body {
 }
 /* -------------------------------MAIN-1PAGE--------------------------------- */
 
-.main-title: {
+.main-title {
     margin: 0 auto;
 }
 .h1 {    
@@ -145,6 +145,14 @@ body {
 }
 /* -------------------------------MAIN--PORTFOLIO--------------------------------- */
 
+/* .portfolio-list {
+    display:flex; flex-wrap: wrap;
+    margin: -15px;
+} */
+.portfolio-list li{
+  margin: 15px;
+}
+    
 .main-button {
     font-family: inherit;
     font-weight: 500;
