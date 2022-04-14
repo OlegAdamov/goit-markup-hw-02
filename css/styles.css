@@ -19,7 +19,18 @@ body {
 .list {
     list-style: none;
 }
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
 /* -------------------------------HEADER--------------------------------- */
+
+.header {
+    background-color: #ECECEC;
+    padding-top: 24px;
+}
 
 .header-link-w {
     font-family: 'Raleway', sans-serif;
@@ -57,6 +68,9 @@ body {
 }
 /* -------------------------------MAIN-1PAGE--------------------------------- */
 
+.main-title: {
+    margin: 0 auto;
+}
 .h1 {    
     background: #2F303A;
 }
@@ -71,6 +85,8 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-top: 200px;
+    max-width: 696px;
 }
 .main-btn {
     font-family: inherit;
@@ -83,8 +99,12 @@ body {
     letter-spacing: 0.06em;
     color: #FFFFFF;
     background-color: var(--header-text-background-color, #2196F3);
+    margin-top: 30px;
 }
-  .main-specific {
+.main-btn:hover {
+   background-color: #188CE8;
+}
+.main-specific {
     background-color: var(--main-background-color, #ffffff);
 }
 .main-heading {
