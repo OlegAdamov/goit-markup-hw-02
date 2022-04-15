@@ -6,8 +6,9 @@
   --main-background-color: #ffffff;
   --main-text-title-color: #212121;
   --main-text-color: #757575;
-  --main-text-background-color: ;
+  /* --main-text-background-color: ; */
   --footer-background-color: #2f303a;
+  --typical-padding: 94px;
 }
 
 body {
@@ -24,14 +25,23 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+  outline: 1px solid red;
 }
 /* -------------------------------HEADER--------------------------------- */
 
 .header {
   background-color: #ececec;
   padding-top: 24px;
+  padding-bottom: 1px;
 }
-
+.header .container {
+  display: flex;
+  align-items: center;
+}
+.header-list {
+  display: flex;
+  margin-left: 93px;
+}
 .header-link-w {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -68,6 +78,7 @@ body {
 .header-connect:focus {
   color: var(--header-text-background-color, #2196f3);
 }
+
 /* -------------------------------MAIN-1PAGE--------------------------------- */
 
 .main-title {
@@ -78,6 +89,10 @@ body {
 }
 .cursor {
   cursor: pointer;
+}
+.section {
+  padding-top: var(--typical-padding);
+  padding-bottom: var(--typical-padding);
 }
 .main-title-text {
   font-weight: 900;
@@ -142,6 +157,7 @@ body {
 .main-our-team-prof {
   font-size: 16px;
   line-height: 1.19;
+  /* text-align: center; */
   letter-spacing: 0.03em;
   color: var(--main-text-color, #757575);
 }
@@ -166,7 +182,6 @@ body {
   cursor: pointer;
   color: var(--header-text-color, #212121);
 }
-
 .main-button:hover,
 .main-button:focus {
   color: #ffffff;
