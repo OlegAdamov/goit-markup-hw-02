@@ -60,6 +60,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--header-text-color, #212121);
 }
+.header-list-a:not(:last-child) {
+  margin-right: 50px;
+}
 .header-link.current {
   color: var(--accent-color);
 }
@@ -78,15 +81,22 @@ body {
 .header-connect:focus {
   color: var(--header-text-background-color, #2196f3);
 }
-
+.header-cnt {
+  display: flex;
+  margin-left: auto;
+}
+.header-cnt-1 {
+  margin-right: 50px;
+}
 /* -------------------------------MAIN-1PAGE--------------------------------- */
 
-.main-title {
+/* .main-title {
   margin: 0 auto;
-}
+} */
 .h1 {
   background: #2f303a;
 }
+
 .cursor {
   cursor: pointer;
 }
@@ -102,7 +112,10 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  margin-top: 200px;
+  margin-top: 106px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
   max-width: 696px;
 }
 .main-btn {
@@ -110,13 +123,15 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
+  display: block;
   align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: var(--header-text-background-color, #2196f3);
   margin-top: 30px;
+  border-radius: 4px;
+  margin: 0 auto;
+  position: relative;
 }
 .main-btn:hover {
   background-color: #188ce8;
@@ -131,6 +146,10 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-text-title-color, #212121);
+}
+.main-heading-img {
+  display: flex;
+  justify-content: space-between;
 }
 .main-specific-title {
   font-weight: 700;
